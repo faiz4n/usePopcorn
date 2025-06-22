@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 export function useLocalStorageState(initialState, key) {
   const [value, setValue] = useState(function () {
-    const storedMovies = localStorage.getItem("watched");
-    return JSON.parse(storedMovies);
+    const storedMovies = localStorage.getItem(key);
+    return storedMovies ? JSON.parse(storedMovies) : [];
   });
 
   useEffect(

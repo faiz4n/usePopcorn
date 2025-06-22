@@ -49,7 +49,7 @@ This project helped solidify my understanding of **React hooks** and **state man
 Wanna run it locally? Here's how:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/usePopcorn.git
+git clone https://github.com/faiz4n/usePopcorn.git
 cd usePopcorn
 npm install
 npm run dev
